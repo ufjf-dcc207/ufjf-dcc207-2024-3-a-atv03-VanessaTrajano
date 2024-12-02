@@ -9,10 +9,10 @@ interface AnimalProps {
 
 function Animal({ icone, nome, peso, emExtincao }: AnimalProps) {
   return <div className="animal">
-    <div>{icone}</div>
-    <div>{nome}</div>
-    <div>{peso.toLocaleString()} kg</div>
-    <div>Em extinção: {emExtincao}</div>
+    <div className="icone">{icone}</div>
+    <div className="nome">{nome}</div>
+    <div className="peso">{peso.toLocaleString()} kg</div>
+    <div className="extincao">Em extinção: {emExtincao}</div>
   </div>;
 }
 
