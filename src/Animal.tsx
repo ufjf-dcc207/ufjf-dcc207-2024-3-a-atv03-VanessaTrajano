@@ -4,7 +4,7 @@ interface AnimalProps {
   icone: string;
   nome: string;
   peso: number;
-  emExtincao: boolean;
+  emExtincao?: boolean;
 }
 
 function Animal({ icone, nome, peso, emExtincao }: AnimalProps) {
