@@ -12,7 +12,7 @@ function Animal({ icone, nome, peso, emExtincao }: AnimalProps) {
     <div className="icone">{icone}</div>
     <div className="nome">{nome}</div>
     <div className="peso">{peso.toLocaleString()} kg</div>
-    <div className="extincao">Em extinção: {emExtincao}</div>
+    {emExtincao && <div className="extincao">Em extinção!</div>}
   </div>;
 }
 
