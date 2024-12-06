@@ -1,0 +1,16 @@
+.exibicao{
+    font-weight: 900;
+    padding: 1em;
+
+    .inicio{
+        color: darkgreen;
+    }
+
+    .fim{
+        color: darkred;
+    }
+
+    .local{
+        text-decoration: underline;
+    }
+}
